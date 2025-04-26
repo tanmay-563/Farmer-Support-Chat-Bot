@@ -38,7 +38,7 @@ def bow(sentence, words, show_details=True):
                     print(f"Found '{w}' in bag")
     return cltn
 
-# Function to predict the class
+# Function to predict the class upon classification
 def predict_class(sentence, model):
     l = bow(sentence, words, show_details=False)
     res = model.predict(np.array([l]))[0]
