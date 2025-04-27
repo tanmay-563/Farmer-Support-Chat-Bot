@@ -59,3 +59,4 @@ Use live weather API and crop disease prediction models
 
 Create a mobile app version
 
+Soon a deployed link will be available since onto it at the full pace.
